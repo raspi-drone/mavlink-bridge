@@ -1,7 +1,7 @@
 
 ```bash
 podman run -it --privileged  --device=/dev/ttyAMA2:/dev/ttyAMA2 --group-add keep-groups mavros
-podman run -it --privileged --ipc=host --network=host --device=/dev/ttyAMA2:/dev/ttyAMA2 --group-add keep-groups mavros
+podman run -it --privileged --ipc=host --network=host --device=/dev/ttyAMA2:/dev/ttyAMA2 --group-add keep-groups ghcr.io/raspi-drone/mavlink-bridge:latest
 ```
 
 ```bash
