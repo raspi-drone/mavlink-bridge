@@ -1,5 +1,4 @@
-FROM ros:jazzy-ros-core
-
+FROM docker.io/ros:jazzy-ros-core
 RUN apt-get update && apt-get install -y \
     ros-jazzy-mavros \
     ros-jazzy-rmw-cyclonedds-cpp \
